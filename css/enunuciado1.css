@@ -1,0 +1,29 @@
+.img1{
+    list-style: none;
+    padding: 0;
+}
+.img1 li{
+    position: relative;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.img1 li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1 .image1::before{
+    background-image: url('../imagenes/icon11.png');
+
+}
+.img1 .image2::before{
+    background-image: url('../imagenes/icon12.png');
+}
+.img1 .image3::before{
+    background-image: url('../imagenes/icon13.png');
+}

@@ -1,0 +1,28 @@
+table{
+
+    border-collapse: separate;
+    border-spacing: 4px;
+    width: 900px;
+    height: auto;
+    background-color: white;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.rojoclaro{
+    background-color: rgb(231, 182, 175);
+    text-align: left;
+}
+.rojointenso {
+    background-color: rgb(213, 131, 118);
+    text-align: left;
+}
+.enero{
+    background-color: rgb(231, 182, 175);
+    text-align: left;
+}
+.febrero{
+    background-color: rgb(213, 131, 118);
+    text-align: left;
+}

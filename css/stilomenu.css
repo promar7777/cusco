@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    text-align: center;
+    font: bold;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+
+h1 {
+    color: #FFF;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    background-color: #FFF;
+    margin: 5px;
+}
+
+#menu ul li a {
+    color: #272727;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    background: #07abbe;
+}
+
+#menu ul li a:hover {
+    background: #FFF;
+    color: #07abbe;
+}
